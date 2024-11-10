@@ -1,0 +1,54 @@
+/* Container for the dashboard layout */
+.dashboard-container {
+    display: flex;
+    height: 100vh; /* Full height layout */
+    background-color: #f8c8d8; /* Background for the content */
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 20%;
+    background-color: #001f77; /* Dark blue for the sidebar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .sidebar-btn {
+    background-color: white;
+    color: #d10202; /* Red text */
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-btn:hover {
+    background-color: #ddd; /* Light gray on hover */
+  }
+  
+  /* Main content styling */
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-content h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #6b3030;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .parking-img {
+    max-width: 80%; /* Responsive image */
+    border: 3px solid #000;
+  }
+  

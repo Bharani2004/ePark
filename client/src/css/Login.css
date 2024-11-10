@@ -1,0 +1,148 @@
+/* Styling for the login container */
+.login-container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  height: fit-content;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the left section of the login container */
+.login-left {
+  width: 50%;
+  background-color: #4ad4d8; /* Teal color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Styling for the image in the left section */
+.login-left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Styling for the heading in the left section */
+.login-left h2 {
+  font-family: 'Arial', sans-serif;
+  color: #000; /* Black color */
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Styling for the right section of the login container */
+.login-right {
+  width: 50%;
+  background-color: #f8c8d8; /* Light pink color */
+  padding: 40px;
+}
+
+/* Styling for the heading in the right section */
+.login-right h2 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+label {
+  margin-bottom: 5px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+/* Input styling */
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Input focus styling */
+input:focus {
+  outline: none;
+  border-color: #000; /* Black border color on focus */
+}
+
+/* Styling for form links */
+.form-links {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+/* General button styling */
+button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff; /* White text color */
+  margin: 5px; /* Ensures buttons are not cramped */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Styling for login button */
+.login-btn {
+  background-color: #4caf50; /* Green */
+}
+
+.login-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Styling for change password button */
+.change-password-btn {
+  background-color: #ff9800; /* Orange */
+}
+
+.change-password-btn:hover {
+  background-color: #e68900; /* Darker orange on hover */
+  color: #fff; /* Ensure text color remains white */
+}
+
+/* Styling for clear button */
+.clear-btn {
+  background-color: #9e9e9e; /* Grey */
+}
+
+.clear-btn:hover {
+  background-color: #e68900; /* Darker grey on hover */
+  color: #fff; /* Ensure text color remains white */
+}
+
+/* Styling for register link */
+.register-link {
+  margin-top: 20px;
+}
+
+.register-link span {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Container for the single line text */
+.single-line-text {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;    /* Hide overflow if necessary */
+  text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+  font-family: 'Arial', sans-serif; /* Consistent font style */
+  font-weight: bold; /* Make the text bold */
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #000; /* Set the text color */
+  margin-top: 40px;
+}

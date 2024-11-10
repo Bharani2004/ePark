@@ -1,0 +1,71 @@
+/* Ensure to import this CSS file in your UpdateProfile component */
+.update-profile-container {
+    max-width: 700px; /* Increased max width for a larger container */
+    margin: 0 auto;
+    padding: 30px; /* Increased padding for more space */
+    border-radius: 10px; /* Larger border-radius for a more rounded look */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Larger box-shadow for more emphasis */
+    background-color: #f9f9f9;
+  }
+  
+  .update-profile-container h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 28px; /* Larger font size for the heading */
+    margin-bottom: 30px; /* Increased margin-bottom for more spacing */
+  }
+  
+  .update-profile-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-profile-container label {
+    margin-bottom: 10px; /* Increased margin-bottom for better spacing */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 18px; /* Larger font size for labels */
+  }
+  
+  .update-profile-container input {
+    padding: 15px; /* Increased padding for larger input fields */
+    margin-bottom: 25px; /* Increased margin-bottom for more spacing between fields */
+    font-size: 18px; /* Larger font size for text in input fields */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; /* Ensure inputs take full width of the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .update-profile-container input:focus {
+    outline: none;
+    border-color: #2196f3; /* Blue color for focus */
+  }
+  
+  .update-profile-container button {
+    padding: 15px; /* Increased padding for larger buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for buttons */
+    color: #fff;
+    margin: 10px; /* Increased margin for more spacing between buttons */
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-profile-container button[type="submit"] {
+    background-color: #4caf50; /* Green */
+  }
+  
+  .update-profile-container button[type="button"] {
+    background-color: #f44336; /* Red */
+  }
+  
+  .update-profile-container button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .update-profile-container button[type="button"]:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  

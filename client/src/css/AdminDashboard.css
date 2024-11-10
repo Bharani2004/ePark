@@ -1,0 +1,40 @@
+.admin-dashboard-container {
+    display: flex;
+    background-color: #f8c8d8;
+    min-height: 100vh;
+    min-width: 211vh;
+  }
+  
+  .sidebar {
+    width: 700px; /* Set width for sidebar */
+    background-color: #001f77; /* Background color for sidebar */
+    padding: 20px;
+  }
+  
+  .sidebar-btn {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-left: 150px;
+    border: none;
+    background-color: white;
+    color: #d10202; /* Text color */
+    cursor: pointer;
+    font-size: 26px;
+  }
+  
+  .sidebar-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .main-content {
+    flex: 1; /* Take the remaining width */
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .admin-img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+  }
+  

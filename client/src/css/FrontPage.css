@@ -1,0 +1,84 @@
+.frontpage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f0f5;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .user-btn, .admin-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .user-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .admin-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .user-btn:hover, .admin-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .frontpage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f0f5;
+  }
+  
+  .frontpage-image {
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Optional */
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .user-btn, .admin-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .user-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .admin-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .user-btn:hover, .admin-btn:hover {
+    opacity: 0.9;
+  }
+  
